@@ -87,6 +87,26 @@ namespace Day19_Assingment
             {
                 Console.WriteLine("Please Enter Valid Password");
             }
+
+            Console.WriteLine("\n");
+            Console.WriteLine("______________UC9____________________");
+            Console.WriteLine("SAMPLE EMAIL ID TEST");
+            SampleEmail sampleEmail = new SampleEmail();
+            Console.WriteLine("Enter Mail ID");
+            Console.WriteLine("NOTE:- E.g. abc.xyz@bl.co.in - Email has 3 mandatory parts (abc, bl&co) and 2 optional (xyz & in) with\r\nprecise @ and . positions");
+
+            string usermail1 = Console.ReadLine();
+
+            value = sampleEmail.validatemail(usermail1);
+
+            if (value)
+            {
+                Console.WriteLine("Given Mail ID  Accepted");
+            }
+            else
+            {
+                Console.WriteLine("Please Enter Valid Mail ID");
+            }
         }
     }
 }
