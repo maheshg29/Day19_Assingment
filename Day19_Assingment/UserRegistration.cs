@@ -16,6 +16,14 @@ namespace Day19_Assingment
             {
                 return Regex.IsMatch(userdata, REGEX_NAME);
             }
-        
+
+        public static string REGEX_LASTNAME = "^[A-Z]{1}[a-z]{2}[a-z]*";
+        //this function is use for NAME validate
+        public bool validatelastname(string userdata)
+        {
+            return Regex.IsMatch(userdata, REGEX_LASTNAME);
+        }
+
+
     }
 }
