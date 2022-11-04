@@ -11,7 +11,7 @@ namespace Day19_Assingment
     {
 
         public static string REGEX_NAME = "^[A-Z]{1}[a-z]{2}[a-z]*";
-
+        //this function is use for NAME validate
             public bool validatename(string userdata)
             {
                 return Regex.IsMatch(userdata, REGEX_NAME);
