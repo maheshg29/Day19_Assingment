@@ -22,7 +22,7 @@ namespace Day19_Assingment
                 Console.WriteLine("Please Enter Valid Name");
             }
 
-            /*
+            
 
             Console.WriteLine("Enter Last Name");
             Console.WriteLine("NOTE:- Last name starts with Cap and has minimum 3 characters");
@@ -71,7 +71,7 @@ namespace Day19_Assingment
             {
                 Console.WriteLine("Please Enter Valid Mobile Number");
             }
-            */
+            
             Console.WriteLine("Enter Password");
             Console.WriteLine("NOTE:- Password minimum 8 Characters ");
 
